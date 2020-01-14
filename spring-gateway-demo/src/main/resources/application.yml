@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      - predicates:
+        - Path= /c/**
+        uri: http://localhost:9091
+        filters:
+        - StripPrefix=1
+          
