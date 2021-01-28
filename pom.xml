@@ -11,7 +11,7 @@
         <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.github.toxrink</groupId>
+    <groupId>com.github.iamxwaa</groupId>
     <artifactId>spring-cloud-demos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -46,7 +46,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.github.toxrink</groupId>
+                <groupId>com.github.iamxwaa</groupId>
                 <artifactId>service-consumer-demo</artifactId>
                 <version>${service-common-demo.version}</version>
             </dependency>
