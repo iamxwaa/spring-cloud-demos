@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
+<project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.3.RELEASE</version>
+        <version>2.2.9.RELEASE</version>
         <relativePath/>
         <!-- lookup parent from repository -->
     </parent>
@@ -23,15 +23,15 @@
         <maven.compiler.target>14</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>14</java.version>
-        <lombok.version>1.14.8</lombok.version>
+        <lombok.version>1.18.8</lombok.version>
         <rest.assured.version>2.3.3</rest.assured.version>
-        <spring-cloud-alibaba-dependencies.version>2.0.1.RELEASE</spring-cloud-alibaba-dependencies.version>
+        <spring-cloud-alibaba-dependencies.version>2.2.1.RELEASE</spring-cloud-alibaba-dependencies.version>
         <h2.version>1.4.197</h2.version>
         <liquibase.version>3.6.3</liquibase.version>
         <service-common-demo.version>0.0.1-SNAPSHOT</service-common-demo.version>
-        <spring-cloud-sleuth.version>2.0.4.RELEASE</spring-cloud-sleuth.version>
-        <spring-cloud-dependencies.version>Finchley.RELEASE</spring-cloud-dependencies.version>
-        <zipkin.version>2.11.13</zipkin.version>
+        <spring-cloud-sleuth.version>2.2.4.RELEASE</spring-cloud-sleuth.version>
+        <spring-cloud-dependencies.version>Hoxton.RELEASE</spring-cloud-dependencies.version>
+        <zipkin.version>2.12.9</zipkin.version>
     </properties>
 
     <modules>
