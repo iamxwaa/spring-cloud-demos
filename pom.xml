@@ -26,7 +26,7 @@
         <lombok.version>1.18.8</lombok.version>
         <rest.assured.version>2.3.3</rest.assured.version>
         <spring-cloud-alibaba-dependencies.version>2.2.1.RELEASE</spring-cloud-alibaba-dependencies.version>
-        <h2.version>1.4.197</h2.version>
+        <h2.version>2.0.206</h2.version>
         <liquibase.version>3.6.3</liquibase.version>
         <service-common-demo.version>0.0.1-SNAPSHOT</service-common-demo.version>
         <spring-cloud-sleuth.version>2.2.4.RELEASE</spring-cloud-sleuth.version>
